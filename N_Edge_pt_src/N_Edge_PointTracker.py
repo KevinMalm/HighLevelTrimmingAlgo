@@ -177,6 +177,10 @@ class N_EdgePointTracker:
                     return
             current_pt = tmp_list.pop().copy()
         
+    def follow_rect_path(self):
+        max_x, max_y, min_x, min_y = 0, 0, 0, 0
+        
+        
 
         
 if __name__ == "__main__":       
